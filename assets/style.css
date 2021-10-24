@@ -1,0 +1,94 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.weather-details {
+    height: 40vh;
+}
+
+.container-fluid{
+    width: 90%;
+    background-color:#fff;
+}
+.main-header {
+    background-color: #565457;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    margin: 5px 0 5px 0;
+}
+.weather-details {
+    background-color: #fff;
+    opacity: .80;
+    border: 1px solid #afabb1;    
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-top: 2px solid #afabb1;
+}
+.card img{
+    width: 60px;
+    margin-left: 30px;
+}
+.card {
+    background-color: rgba(8, 114, 235, 0.924);
+    color: #fff;
+    padding: 5px;
+    margin: 5x;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.col-3 {
+    background-color: rgb(248, 248, 247);
+}
+#input-city {
+    padding: 0;
+}
+
+#day2, #day3, #day4, #day5 {
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 0;
+    border: none;
+}
+#day1 {
+    border-radius: 5px;
+    padding: 0;
+    border: none;
+}
+.normal {
+    background-color: green;
+}
+.moderate {
+    background-color: yellow;
+}
+.severe {
+    background-color: red;
+   
+}
+.normal, .moderate, .severe {
+    padding: 5px;
+    border-radius: 5px;
+}
+#city-name {
+    background-color:rgba(8, 114, 235, 0.924);
+    color: #fff;
+}
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0;
+    
+}
+li {
+    border: 1px solid #565457;
+    padding:0 0 0 5px;
+    margin-bottom: 1px;
+    color: #fff;
+    
+    background-color: rgba(8, 114, 235, 0.924);
+    width: 100%;
+    border-radius: 3px;
+    height: 30px;
+}
